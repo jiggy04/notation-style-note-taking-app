@@ -15,6 +15,13 @@ app.use(express.json())
 
 connectDB();
 
+app.get('/', (req,res) => {
+    return res.json({
+        success: true,
+        message: "Second brain API is running"
+    });
+});
+
 app.use('/api/users', userRoute);
 app.use('/api', noteRoute);
 
