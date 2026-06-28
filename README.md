@@ -200,6 +200,12 @@ The API can be deployed using platforms such as:
 
 This API is deployed on **Render**.
 
+### Live Deployment
+
+```text
+https://notation-style-note-taking-app.onrender.com
+```
+
 Once deployed, replace `localhost` with your deployment URL when making API requests.
 
 Example:
@@ -209,6 +215,13 @@ https://your-app.onrender.com/api/users/login
 ```
 
 ---
+## Backend Codes
+
+The codes can be viewed from 
+```text
+https://github.com/jiggy04/nototion-style-note-taking-app
+```
+
 
 ## 📄 Environment Variables
 
@@ -250,6 +263,18 @@ Example validation error:
   "message": "Title and content are required"
 }
 ```
+## HTTP Status Codes
+
+
+| Code | Meaning               |
+| ---- | --------------------- |
+| 200  | OK                    |
+| 201  | Created               |
+| 400  | Bad Request           |
+| 401  | Unauthorized          |
+| 404  | Not Found             |
+| 500  | Internal Server Error |
+
 
 ## 🚧 Future Improvements
 
